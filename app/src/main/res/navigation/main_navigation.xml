@@ -6,7 +6,7 @@
     app:startDestination="@+id/launcher_home">
     <fragment
         android:id="@+id/launcher_home"
-        android:name="com.bitwindow.aacpaginginfinitescrollingwithnetworksample.ui.movielist.MovieListFragment"
+        android:name="com.chaity.easymove.ui.deliverylist.DeliveryListFragment"
         android:label="@string/app_name"
         tools:layout="@layout/fragment_movie_list">
 
@@ -21,9 +21,9 @@
     </fragment>
     <fragment
         android:id="@+id/movieDetailFragment"
-        android:name="com.bitwindow.aacpaginginfinitescrollingwithnetworksample.ui.moviedetail.MovieDetailFragment"
+        android:name="com.chaity.easymove.ui.moviedetail.DeliveryDetailFragment"
         android:label="fragment_movie_detail"
-        tools:layout="@layout/fragment_movie_detail" >
+        tools:layout="@layout/fragment_delivery_detail" >
         <argument
             android:name="movie_id"
             app:argType="string"

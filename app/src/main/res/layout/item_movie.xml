@@ -5,43 +5,26 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/moviePoster"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/list_poster_height"
-        android:adjustViewBounds="true"
-        android:contentDescription="@string/movie_poster"
-        android:scaleType="centerCrop"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:src="@drawable/poster_placeholder" />
-
-    <RatingBar
-        android:id="@+id/ratingBar"
-        style="?android:attr/ratingBarStyleIndicator"
+        android:id="@+id/iv_del"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/moviePoster"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="@dimen/small_margin"
-        android:numStars="5"
-        android:rating="5"
-        android:stepSize=".1"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/moviePoster" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/movieReleaseDate"
+        android:id="@+id/tv_del"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:gravity="center_horizontal"
-        android:textColor="@color/colorWhite"
-        android:textSize="23sp"
-        android:textStyle="bold"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="sample text"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ratingBar"
-        tools:text="27 Sep 18" />
+        app:layout_constraintStart_toEndOf="@+id/iv_del"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

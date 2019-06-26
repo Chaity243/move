@@ -7,7 +7,7 @@ apply plugin: 'androidx.navigation.safeargs'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.bitwindow.aacpaginginfinitescrollingwithnetworksample"
+        applicationId "com.chaity.easymove"
         minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
@@ -40,7 +40,7 @@ android {
 }
 
 androidExtensions {
-    //For LayoutContainer in MovieListViewHolder to provide
+    //For LayoutContainer in DeliveryListViewHolder to provide
     // Android Extensions-style view access
     experimental = true
 }

@@ -15,7 +15,7 @@ This project is a sample for implementation of Clean Architecture written in Kot
 Android Studio 3.2 or higher
 
 ## Getting Started
-The app requires an API key from The Movie Database (TMDB) which you can get using free registration. [https://www.themoviedb.org/settings/api](https://www.themoviedb.org/settings/api)
+The app requires an API key from The Delivery Database (TMDB) which you can get using free registration. [https://www.themoviedb.org/settings/api](https://www.themoviedb.org/settings/api)
 
 You can add the key in your global `.gradle/gradle.properties` file. 
 
